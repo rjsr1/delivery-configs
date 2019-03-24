@@ -30,7 +30,7 @@ spring:
         password: 'root'
         platform: mysql
         schema: classpath:/sql/schema.sql
-        url: jdbc:mysql://localhost:3306/Database_dbName?allowPublicKeyRetrieval=true&useSSL=NO;
+        url: jdbc:mysql://localhost:3306/oauth?allowPublicKeyRetrieval=true&useSSL=NO;
         username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
