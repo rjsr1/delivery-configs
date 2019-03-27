@@ -26,7 +26,7 @@ spring:
         hibernate:
             ddl-auto: create
         show-sql: true
-    resources
+    resources:
         add-mappings: true
 authserver:
   hostname: http://localhost:9092
